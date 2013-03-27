@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-TEMPLATE_DIRS = ('C:\Python27\wiki\page\templates')
+TEMPLATE_DIRS = ('C:\Python27\wiki\page\template')
 
 ALLOWED_HOSTS = []
 
@@ -78,9 +78,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-MEDIA_ROOT = 'C:\Python27\wiki\media'
-MEDIA_URL = '/media/'
 
 
 # Static files (CSS, JavaScript, Images)
